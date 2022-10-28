@@ -25,12 +25,12 @@ const About = (props: Props) => {
         }}
         viewport={{ once: true }}
         src='https://images.unsplash.com/photo-1666526320312-d07111a23bdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'
-        className='-mb-20 mt-8 md:mb-0 flex-shrink-0 w-56 h-56 object-cover rounded-full md:rounded-lg md:w-64 md:h-95 lg:w-[300px] lg:h-[400px] xl:w-[300px] xl:h-[400px]'
+        className='-mb-20 mt-10 md:mb-0 flex-shrink-0 w-56 h-56 object-cover rounded-full md:rounded-lg md:w-64 md:h-95 lg:w-[300px] lg:h-[400px] xl:w-[300px] xl:h-[400px]'
       />
 
-      <div className='space-y-10 px-0 md:px-10'>
+      <div className='space-y-10 px-0 mt-20 md:px-10'>
         <h4 className='text-4xl font-semibold'>
-          Hear is a{' '}
+          Here is a{' '}
           <span className='underline decoration-[#478778]/50'>little</span>{' '}
           background
         </h4>

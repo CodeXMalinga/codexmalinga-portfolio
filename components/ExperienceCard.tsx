@@ -7,7 +7,7 @@ type Props = {};
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='flex flex-col rounded-lg sm:max-h-72 md:max-h-[400px] lg:max-h-[400px] items-center space-y-7 flex-shrink-0 w-[400px] md:w-[400px] xl:w-[500px] snap-center p-10 md:pb-0 md: mb-0 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden md:overflow-y-scroll'>
       <motion.div
         initial={{
           y: -100,
@@ -34,8 +34,10 @@ const ExperienceCard = (props: Props) => {
       </motion.div>
 
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'>Freelance Frontend Developer</h4>
-        <p className='font-bold text-2xl mt-1'>Fiverr, UpWork</p>
+        <h4 className='text-3xl md:text-4xl font-light'>
+          Freelance Frontend Developer
+        </h4>
+        <p className='font-bold md:text-2xl mt-1'>Fiverr, UpWork</p>
         <div className='flex space-x-2 my-2'>
           <img
             className='w-10 h-10 rounded-full'
